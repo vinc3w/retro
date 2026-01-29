@@ -6,14 +6,15 @@
   import LoveBrosGif from "$lib/assets/gifs/love-bros.webp";
   import MadeWithVscodeImg from "$lib/assets/imgs/made-with-vscode.png";
   import ResponsiveSiteImg from "$lib/assets/imgs/responsive-site.jpg";
+  import { base } from "$app/paths";
 </script>
 
 <nav class="container">
   <section>
     <div class="label">♡ navigation ♡</div>
     <ul>
-      <li><a href="/">🏠 Home</a></li>
-      <li><a href="/gallery">🖼️ Gallery</a></li>
+      <li><a href="{base}/">🏠 Home</a></li>
+      <li><a href="{base}/gallery">🖼️ Gallery</a></li>
     </ul>
   </section>
   <section>

@@ -3,6 +3,7 @@
   import Footer from "$lib/components/footer/Footer.svelte";
   import Nav from "$lib/components/nav/Nav.svelte";
   import WelcomeMarquee from "$lib/components/welcome-marquee/WelcomeMarquee.svelte";
+  import { base } from "$app/paths";
 	import "./global.css";
 
 	let { children } = $props();
@@ -23,18 +24,18 @@
 	<meta property="og:url" content="https://vinc3w.github.io/retro" />
 	<meta property="og:title" content="vinc3w" />
 	<meta property="og:description" content="A retro-style portfolio website for vinc3w." />
-	<meta property="og:image" content="/avatar.png" />
+	<meta property="og:image" content="{base}/avatar.png" />
 
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:url" content="https://vinc3w.github.io/retro" />
 	<meta property="twitter:title" content="vinc3w" />
 	<meta property="twitter:description" content="A retro-style portfolio website for vinc3w." />
-	<meta property="twitter:image" content="/avatar.png" />
+	<meta property="twitter:image" content="{base}/avatar.png" />
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+	<link rel="apple-touch-icon" sizes="180x180" href="{base}/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{base}/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{base}/favicon-16x16.png">
+	<link rel="manifest" href="{base}/site.webmanifest">
 	<title>UwU</title>
 </svelte:head>
 
