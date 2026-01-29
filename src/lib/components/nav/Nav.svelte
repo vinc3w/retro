@@ -20,7 +20,7 @@
   <section>
     <div class="label">♡ Socials ♡</div>
     <ul>
-      <li><a href="https://discordapp.com/users/" target="_blank">🖤 Discord</a></li>
+      <li><a href="https://discordapp.com/users/582932383381192705" target="_blank">🖤 Discord</a></li>
       <li><a href="https://www.instagram.com/vinc3w59/" target="_blank">🩷 Instagram</a></li>
       <li><a href="https://open.spotify.com/user/f8sifsire8pgeu635j5n4b2zh?si=c9991214b65f439b" target="_blank">💚 Spotify</a></li>
       <li><a href="https://github.com/vinc3w" target="_blank">💜 Github</a></li>
