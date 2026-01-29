@@ -4,7 +4,7 @@
   import Nav from "$lib/components/nav/Nav.svelte";
   import WelcomeMarquee from "$lib/components/welcome-marquee/WelcomeMarquee.svelte";
   import { base } from "$app/paths";
-	import "./global.css";
+	import "$lib/styles/global.css";
 
 	let { children } = $props();
 </script>
