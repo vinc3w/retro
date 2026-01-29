@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Patrick Hand";
+  src: url("$lib/assets/fonts/PatrickHand-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  overflow: auto;
+  height: 100%;
+  background: url("$lib/assets/imgs/tileable-bg.png");
+  background-size: 3%;
+  padding: 16px;
+  font-family: "Patrick Hand";
+}
+
+.container {
+  border: 1px solid #000;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #F4F0C0, #D4DF99);
+}
