@@ -24,13 +24,13 @@
 	<meta property="og:url" content="https://vinc3w.github.io/retro" />
 	<meta property="og:title" content="vinc3w" />
 	<meta property="og:description" content="A retro-style portfolio website for vinc3w." />
-	<meta property="og:image" content="https://vinc3w.github.io{base}/avatar.png" />
+	<meta property="og:image" content="https://vinc3w.github.io/retro/avatar.png" />
 
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:url" content="https://vinc3w.github.io/retro" />
 	<meta property="twitter:title" content="vinc3w" />
 	<meta property="twitter:description" content="A retro-style portfolio website for vinc3w." />
-	<meta property="twitter:image" content="https://vinc3w.github.io{base}/avatar.png" />
+	<meta property="twitter:image" content="https://vinc3w.github.io/retro/avatar.png" />
 
 	<link rel="apple-touch-icon" sizes="180x180" href="{base}/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="{base}/favicon-32x32.png">
